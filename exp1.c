@@ -1,0 +1,28 @@
+// using nested if-else statements
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int num1, num2, num3;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    if (num1 > num2){
+        if (num1 > num3){
+            printf("%d is the largest number.", num1);
+        }
+        else{
+            printf("%d is the largest number.", num3);
+        }
+    }
+    if (num2 >= num1){
+        if (num2 >= num3){
+            printf("%d is the largest num.", num2);
+        }
+        else{
+            printf("%d is the largest num.", num3);
+        }
+    }
+
+    return 0;
+}
