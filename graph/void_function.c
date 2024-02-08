@@ -13,6 +13,9 @@ void factorial(void)
     for (i = 1; i <= num; i++)
     {
         fact = fact*i;
-        
+
     }
+    printf("fact is: %d", fact);
+
+    
 }
