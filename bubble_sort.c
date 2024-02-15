@@ -13,7 +13,7 @@ int main(){
     {
         printf("Enter element %d: ", i + 1);
         scanf("%d", &array[i]);
-        printf("\n");
+        
     }
 
     printf("Array: ");
