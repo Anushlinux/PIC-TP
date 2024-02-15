@@ -13,7 +13,6 @@ int main()
     {
         printf("Enter the elemets: ", i + 1);
         scanf("%d", &array[i]);
-
     }
     printf("Array: ");
     for (int i = 0; i < a; i++ )
@@ -39,7 +38,5 @@ int main()
         {
             printf("%d", array[i]);
         }
-
-
 }
 
