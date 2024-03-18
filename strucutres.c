@@ -1,6 +1,7 @@
 //stuct function to find the name roll marks and grade of a student
 
 #include <stdio.h>
+#include <math.h>
 
 
 
