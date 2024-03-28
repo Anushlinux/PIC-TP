@@ -59,5 +59,6 @@
   "workbench.colorCustomizations": {
     "minimap.background": "#00000000",
     "scrollbar.shadow": "#00000000"
-  }
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }
